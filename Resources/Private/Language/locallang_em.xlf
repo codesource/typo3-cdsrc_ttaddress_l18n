@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-01-10T17:54:12Z" product-name="lang">
+        <header/>
+        <body>
+            <trans-unit id="translatableFields" xml:space="preserve">
+                <source>Comma separated list of translatable fields.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

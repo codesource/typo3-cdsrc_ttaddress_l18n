@@ -1,0 +1,2 @@
+# cat=Basic/enable; type=string; label=LLL:EXT:cdsrc_ttaddress_l18n/Resources/Private/Language/locallang_em.xlf:translatableFields
+translatableFields = title,address,building,room,www,city,region,country,description
