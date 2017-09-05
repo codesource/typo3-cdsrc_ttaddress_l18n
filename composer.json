@@ -1,0 +1,26 @@
+{
+  "name": "typo3-ter/cdsrc-ttaddress-l18n",
+  "type": "typo3-cms-extension",
+  "description": "Append multilingual to tt_address",
+  "authors": [
+    {
+      "name": "Matthias Toscanelli",
+      "email": "m.toscanelli@code-source.ch",
+      "company": "Code-Source",
+      "username": "mtoscanelli"
+    }
+  ],
+  "require": {
+    "typo3-ter/tt-address": "*",
+    "typo3/cms-core": ">= 7.6.0, <= 8.7.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "CDSRC\\CdsrcTtAddressL18n\\": "Classes"
+    }
+  },
+  "replace": {
+    "cdsrc_ttaddress_l18n": "self.version",
+    "typo3-ter/cdsrc_ttaddress_l18n": "self.version"
+  }
+}

@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = [
     'description' => 'Append multilingual to tt_address',
     'category' => 'be',
     'shy' => false,
-    'version' => '1.0.1',
+    'version' => '1.1.0',
     'dependencies' => '',
     'conflicts' => '',
     'priority' => '',
@@ -34,7 +34,7 @@ $EM_CONF[$_EXTKEY] = [
     'CGLcompliance_note' => null,
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-8.6.99',
+            'typo3' => '7.6.0-8.7.99',
             'tt_address' => '3.0.0+',
         ],
         'conflicts' => [],
