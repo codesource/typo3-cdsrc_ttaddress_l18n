@@ -98,7 +98,3 @@ $excludedFields = array_diff(
 foreach ($excludedFields as $field) {
     $GLOBALS['TCA']['tt_address']['columns'][$field]['l10n_mode'] = 'exclude';
 }
-
-foreach (\CDSRC\CdsrcTtAddressL18n\Utility\SettingsUtility::getSettings()->getTranslatableFields() as $field) {
-    $GLOBALS['TCA']['tt_address']['columns'][$field]['l10n_mode'] = 'mergeIfNotBlank';
-}
